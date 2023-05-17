@@ -35,7 +35,7 @@ const Header : React.FC = () => {
 
   const { download } = useDownloader();
 
-  const fileUrl = '/resumepdf.pdf'
+  const fileUrl = 'https://faizshariff.github.io/Portfolio-2023/resumepdf.pdf'
   const filename = 'resumepdf.pdf';
 
   const action = (
