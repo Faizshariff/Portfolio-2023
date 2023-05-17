@@ -12,6 +12,8 @@ import { useInView } from 'react-intersection-observer';
 const History = () => {
 
   const { ref : about, inView : isAboutVisible  } = useInView();
+  const { ref : about2, inView : isAboutVisible2  } = useInView();
+  const { ref : about3, inView : isAboutVisible3  } = useInView();
 
 
   return (
@@ -49,8 +51,8 @@ knowledge that has enhanced my capabilities</Typography>
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
         <div 
-          ref={about}
-          className={`${ isAboutVisible ? 'slideInLeft' : null}`}
+          ref={about2}
+          className={`${ isAboutVisible2 ? 'slideInLeft' : null}`}
           >
           <Typography variant="h6" >
             TechKit
@@ -75,8 +77,8 @@ new potential customers
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
         <div 
-          ref={about}
-          className={`${ isAboutVisible ? 'slideInRight2' : null}`}
+          ref={about3}
+          className={`${ isAboutVisible3 ? 'slideInRight2' : null}`}
           >
           <Typography variant="h6" >
           Fiverr , Upwork & Others
