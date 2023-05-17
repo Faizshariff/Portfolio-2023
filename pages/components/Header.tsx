@@ -35,7 +35,7 @@ const Header : React.FC = () => {
 
   const { download } = useDownloader();
 
-  const fileUrl = 'http://localhost:3000/resumepdf.pdf'
+  const fileUrl = '/resumepdf.pdf'
   const filename = 'resumepdf.pdf';
 
   const action = (
