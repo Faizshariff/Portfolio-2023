@@ -29,7 +29,7 @@ const Aboutme = forwardRef<any, AboutmeProps>(({ IsVisible }, about ) => {
        <div className='description mt-8 sm:mt-12 lg:mt-24 w-11/12 sm:w-3/4 lg:w-3/4 mr-6 sm:mr-0'>
         <p>
         Im a tech-savvy individual who loves staying up-to-date with the latest technology trends, living life one code commit at a time. A developer and sometimes a designer who is always on the lookout for new challenges and creative ways to solve problems . 
-I excel in crafting web apps , desktop apps and mobile application and i am well equipped with latest frameworks like Nextjs , tailwind css , etc . My goal is to help others and grow in the process
+I excel in crafting web apps, desktop apps and mobile apps and i am well equipped with latest frameworks like Nextjs , tailwind css , etc . My goal is to help others and grow in the process
         </p>
        </div>
     </div>
